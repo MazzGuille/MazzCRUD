@@ -14,11 +14,11 @@
         <input asp-for="IdContacto" type="hidden" class="form-control">
         
         <div class="alert alert-danger" role="alert">
-            ¿Deseas eleiminar el contacto: @Html.DisplayTextFor(x => x.Nombre)?
+            ¿Deseas eliminar el registro: @Html.DisplayTextFor(x => x.Nombre)?
         </div>
             
-      <button type="submit" class="btn btn-danger">Eliminar</button>
-      <a asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning">Volver a la lista</a>
+      <button type="submit" class="btn btn-danger"><i class="bi bi-person-x"></i> Eliminar</button>
+      <a asp-action="Listar" asp-controller="Mantenedor" class="btn btn-warning"><i class="bi bi-person-lines-fill"></i> Volver a la lista</a>
     </form>
 
   </div>
