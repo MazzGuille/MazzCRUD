@@ -32,6 +32,11 @@ namespace CRUDCORE.Datos
                         });
                     }
                 }
+
+
+                //leer un set y parcearlo a un listado de List<ContactoModel>()
+
+
             }
             return oLista;
         }
