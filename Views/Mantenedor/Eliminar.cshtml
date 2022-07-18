@@ -11,7 +11,7 @@
   <div class="card-body">
     
     <form asp-action="Eliminar" asp-controller="Mantenedor" method="post">
-        <input asp-for="IdContacto" type="hidden" class="form-control">
+        <input asp-for="IdContacto"  class="form-control">
         
         <div class="alert alert-danger" role="alert">
             ¿Deseas eliminar el registro: @Html.DisplayTextFor(x => x.Nombre)?

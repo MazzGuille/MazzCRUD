@@ -21,7 +21,6 @@ namespace CRUDCORE.Controllers
             return View();
         }
 
-
         [HttpPost]
         public IActionResult Guardar(ContactoModel oContacto)
         {
